@@ -1,0 +1,32 @@
+[
+  {
+    "scenario": 1,
+    "name": "Question about existing information",
+    "kind": "llm",
+    "matched": true
+  },
+  {
+    "scenario": 2,
+    "name": "Follow-up question",
+    "kind": "llm",
+    "matched": true
+  },
+  {
+    "scenario": 3,
+    "name": "Detail not in the sources",
+    "kind": "llm",
+    "matched": true
+  },
+  {
+    "scenario": 4,
+    "name": "Rejection and improvement",
+    "kind": "llm (flawed first draft injected on purpose)",
+    "matched": true
+  },
+  {
+    "scenario": 5,
+    "name": "Attempts exhausted",
+    "kind": "MOCK evaluator (control-flow test, real Actor)",
+    "matched": true
+  }
+]

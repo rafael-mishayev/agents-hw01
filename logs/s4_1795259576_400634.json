@@ -1,0 +1,24 @@
+{
+  "scenario_id": "s4",
+  "question": "איפה למדת?",
+  "models": {
+    "actor": "gemini-3.5-flash-lite",
+    "critic": "gemini-3.1-flash-lite"
+  },
+  "status": "approved",
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "למדתי באוניברסיטת סטנפורד וניהלתי צוות של 40 מהנדסים בגוגל.",
+      "is_acceptable": false,
+      "feedback": "The candidate answer contains false information not supported by the sources. Dana Levi studied at Tel Aviv University and Ben-Gurion University, not Stanford, and she works at Lumina Health, not Google. Additionally, she leads a team of 4 engineers, not 40. The assistant must correct these claims to match the provided source documents."
+    },
+    {
+      "attempt": 2,
+      "candidate": "את תואר המוסמך שלי במדעי המחשב (בהתמחות בלמידת מכונה) סיימתי באוניברסיטת תל אביב, ואת תואר הבכור בהנדסת מערכות מידע למדתי באוניברסיטת בן-גוריון בנגב.",
+      "is_acceptable": true,
+      "feedback": "The answer is accurate and supported by the provided sources regarding Dana Levi's education."
+    }
+  ],
+  "final_answer": "את תואר המוסמך שלי במדעי המחשב (בהתמחות בלמידת מכונה) סיימתי באוניברסיטת תל אביב, ואת תואר הבכור בהנדסת מערכות מידע למדתי באוניברסיטת בן-גוריון בנגב."
+}

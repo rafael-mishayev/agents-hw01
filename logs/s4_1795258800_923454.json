@@ -1,0 +1,20 @@
+{
+  "scenario_id": "s4",
+  "question": "איפה למדת?",
+  "status": "approved",
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "למדתי באוניברסיטת סטנפורד וניהלתי צוות של 40 מהנדסים בגוגל.",
+      "is_acceptable": false,
+      "feedback": "The answer provides false information regarding education and professional experience. The sources state that Dana Levi studied at Tel Aviv University and Ben-Gurion University, and lead a team of 4 engineers at Lumina Health, not 40 engineers at Google. Please remove these invented claims and provide accurate information based on the provided documents."
+    },
+    {
+      "attempt": 2,
+      "candidate": "למדתי לתואר שני במדעי המחשב עם התמחויות בלמידת מכונה באוניברסיטת תל אביב, שם סיימתי בהצטיינות עם ממוצע 91. לפני כן, השלמתי תואר ראשון בהנדסת מערכות מידע באוניברסיטת בן-גוריון בנגב, אותו סיימתי בהצטיינות.",
+      "is_acceptable": true,
+      "feedback": "The answer accurately reflects the educational background found in the sources and adheres to the required style and tone."
+    }
+  ],
+  "final_answer": "למדתי לתואר שני במדעי המחשב עם התמחויות בלמידת מכונה באוניברסיטת תל אביב, שם סיימתי בהצטיינות עם ממוצע 91. לפני כן, השלמתי תואר ראשון בהנדסת מערכות מידע באוניברסיטת בן-גוריון בנגב, אותו סיימתי בהצטיינות."
+}

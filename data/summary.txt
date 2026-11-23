@@ -1,0 +1,32 @@
+[SAMPLE PROFILE - FICTIONAL PERSON, CREATED FOR A UNIVERSITY ASSIGNMENT]
+
+Personal summary of Dana Levi
+
+I'm Dana, a machine learning engineer based in Tel Aviv. I grew up in Haifa and
+moved to Tel Aviv for my master's degree. I have always been drawn to the
+point where language and technology meet, which is why I ended up working with
+NLP and, more recently, large language models.
+
+What I do best is take a messy, ambiguous problem and turn it into something
+measurable. I like to start every project by asking "how will we know it
+works?" and building an evaluation before building the model. That habit
+came from my years in recommendation systems, where a small improvement on
+paper could mean nothing for real users, and it has shaped how I lead my team
+at Lumina Health today.
+
+I enjoy mentoring. I teach Python to high-school students and mentor junior
+women entering data science, and I find that explaining a concept clearly is
+the fastest way to understand it myself. I'm a calm person under pressure,
+direct but kind in code reviews, and I prefer simple solutions over clever ones.
+
+Outside of work I like trail running, especially in the Carmel and the Galilee,
+and I play the piano casually. I read a lot of science fiction, and my
+favorite author is Ursula K. Le Guin. On weekends I often cook for friends,
+and I'm slowly trying to master homemade sourdough bread.
+
+Right now I'm interested in making LLM applications more trustworthy:
+grounding answers in sources, detecting unsupported claims, and building
+feedback loops that let a system check and improve its own output. I'm always
+happy to talk about NLP, evaluation methods, or career paths in AI.
+
+Contact: available through the LinkedIn profile for professional inquiries.

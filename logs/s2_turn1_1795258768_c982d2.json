@@ -1,0 +1,14 @@
+{
+  "scenario_id": "s2_turn1",
+  "question": "באיזה פרויקט עבדת על צ'אטבוט?",
+  "status": "approved",
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "עבדתי על פרויקט אישי בשם PaperPal בשנת 2024, שבו בניתי צ'אטבוט שעונה על שאלות לגבי מאמרים אקדמיים שמעלים כקובצי PDF. המערכת נבנתה באמצעות Python, embeddings ו-Gradio, והיא קוד פתוח ב-GitHub עם כ-300 כוכבים. בנוסף, במסגרת התפקיד הנוכחי שלי ב-Lumina Health, אני מובילה צוות שבנה שירות סיכום הערות קליניות, המשלב ממשקים שיחותיים וארכיטקטורת RAG.",
+      "is_acceptable": true,
+      "feedback": "The answer accurately identifies the relevant projects from the source material and provides the requested information in a clear, professional manner."
+    }
+  ],
+  "final_answer": "עבדתי על פרויקט אישי בשם PaperPal בשנת 2024, שבו בניתי צ'אטבוט שעונה על שאלות לגבי מאמרים אקדמיים שמעלים כקובצי PDF. המערכת נבנתה באמצעות Python, embeddings ו-Gradio, והיא קוד פתוח ב-GitHub עם כ-300 כוכבים. בנוסף, במסגרת התפקיד הנוכחי שלי ב-Lumina Health, אני מובילה צוות שבנה שירות סיכום הערות קליניות, המשלב ממשקים שיחותיים וארכיטקטורת RAG."
+}

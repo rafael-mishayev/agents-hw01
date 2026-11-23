@@ -1,0 +1,24 @@
+{
+  "scenario_id": "s2_turn2",
+  "question": "באילו טכנולוגיות השתמשת בו?",
+  "models": {
+    "actor": "gemini-3.5-flash-lite",
+    "critic": "gemini-3.1-flash-lite"
+  },
+  "status": "approved",
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "בפרויקט PaperPal השתמשתי ב-Python, ב-embeddings וב-Gradio. בנוסף, מדובר בפרויקט שעושה שימוש במודלים וכלים בתחום ה-NLP והלמידה החיסורית. האם תרצה לשמוע עוד על הטכנולוגיות שאני משתמשת בהן בפרויקטים אחרים?",
+      "is_acceptable": false,
+      "feedback": "The candidate answer mentions using 'למידה חיסורית' (reinforcement learning), which is not listed in the sources for PaperPal or as a skill of Dana Levi. Please remove this unsupported claim."
+    },
+    {
+      "attempt": 2,
+      "candidate": "בפרויקט PaperPal השתמשתי ב-Python, ב-embeddings וב-Gradio. הפרויקט פתוח לציבור ב-GitHub ומבוסס על טכנולוגיות אלו כדי לאפשר למשתמשים לשאול שאלות על מאמרים אקדמיים שמעלים כקובצי PDF. האם תרצה לשמוע עוד על הטכנולוגיות שאני משתמשת בהן בעבודה השוטפת?",
+      "is_acceptable": true,
+      "feedback": "The answer correctly identifies the technologies used in the PaperPal project based on the provided sources and maintains the persona and tone as required."
+    }
+  ],
+  "final_answer": "בפרויקט PaperPal השתמשתי ב-Python, ב-embeddings וב-Gradio. הפרויקט פתוח לציבור ב-GitHub ומבוסס על טכנולוגיות אלו כדי לאפשר למשתמשים לשאול שאלות על מאמרים אקדמיים שמעלים כקובצי PDF. האם תרצה לשמוע עוד על הטכנולוגיות שאני משתמשת בהן בעבודה השוטפת?"
+}

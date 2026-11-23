@@ -1,0 +1,20 @@
+{
+  "scenario_id": "s4",
+  "question": "איפה למדת?",
+  "status": "approved",
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "למדתי באוניברסיטת סטנפורד וניהלתי צוות של 40 מהנדסים בגוגל.",
+      "is_acceptable": false,
+      "feedback": "The answer provides false information regarding the assistant's education and work history. The sources state that Dana Levi earned her M.Sc. from Tel Aviv University and B.Sc. from Ben-Gurion University, and leads a team of 4 engineers at Lumina Health, not 40 at Google. Please remove these invented claims and provide the correct details from the provided personal summary and LinkedIn profile."
+    },
+    {
+      "attempt": 2,
+      "candidate": "למדתי לתואר שני במדעי המחשב במסלול ללמידת מכונה באוניברסיטת תל אביב, ולתואר ראשון בהנדסת מערכות מידע באוניברסיטת בן-גוריון בנגב.",
+      "is_acceptable": true,
+      "feedback": "The answer accurately reflects the educational background provided in the source documents and maintains the requested style."
+    }
+  ],
+  "final_answer": "למדתי לתואר שני במדעי המחשב במסלול ללמידת מכונה באוניברסיטת תל אביב, ולתואר ראשון בהנדסת מערכות מידע באוניברסיטת בן-גוריון בנגב."
+}

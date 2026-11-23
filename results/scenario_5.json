@@ -1,0 +1,46 @@
+{
+  "name": "Attempts exhausted",
+  "kind": "MOCK evaluator (control-flow test, real Actor)",
+  "expected": "Three rejected attempts, stop after the third, and the 'no approved answer' message. No rejected draft shown as approved.",
+  "inputs": [
+    "איפה למדת?"
+  ],
+  "displayed": [
+    "לא התקבלה תשובה מאושרת במסגרת מגבלת הניסיונות. אפשר לנסח את השאלה מחדש."
+  ],
+  "logs": [
+    {
+      "scenario_id": "s5_mock",
+      "question": "איפה למדת?",
+      "models": {
+        "actor": "gemini-3.5-flash-lite",
+        "critic": "injected test evaluator (mock)"
+      },
+      "status": "attempts_exhausted",
+      "attempts": [
+        {
+          "attempt": 1,
+          "candidate": "למדתי לתואר שני במדעי המחשב עם התמחות בלמידת מכונה באוניברסיטת תל אביב, ולתואר ראשון בהנדסת מערכות מידע באוניברסיטת בן-גוריון בנגב. את שני התארים סיימתי בהצטיינות.",
+          "is_acceptable": false,
+          "feedback": "MOCK: rejected on purpose to test the control flow (attempt limit)."
+        },
+        {
+          "attempt": 2,
+          "candidate": "למדתי לתואר שני במדעי המחשב במסלול למידת מכונה באוניברסיטת תל אביב, וסיימתי אותו בהצטיינות. לפני כן, השלמתי תואר ראשון בהנדסת מערכות מידע באוניברסיטת בן-גוריון בנגב.",
+          "is_acceptable": false,
+          "feedback": "MOCK: rejected on purpose to test the control flow (attempt limit)."
+        },
+        {
+          "attempt": 3,
+          "candidate": "למדתי לתואר שני במדעי המחשב במסלול למידת מכונה באוניברסיטת תל אביב בין השנים 2018 ל-2020. לפני כן, השלמתי תואר ראשון בהנדסת מערכות מידע באוניברסיטת בן-גוריון בנגב.",
+          "is_acceptable": false,
+          "feedback": "MOCK: rejected on purpose to test the control flow (attempt limit)."
+        }
+      ],
+      "log_file": "logs/s5_mock_1795262540_a537a4.json"
+    }
+  ],
+  "matched": true,
+  "note": "The Critic is a mock that always rejects. This tests the flow of the loop, not the quality of the LLM Critic.",
+  "scenario": 5
+}

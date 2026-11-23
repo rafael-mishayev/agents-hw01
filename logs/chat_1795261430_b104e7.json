@@ -1,0 +1,18 @@
+{
+  "scenario_id": "chat",
+  "question": "איפה למדת?",
+  "models": {
+    "actor": "gemini-3.5-flash-lite",
+    "critic": "gemini-3.1-flash-lite"
+  },
+  "status": "approved",
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "למדתי לתואר שני במדעי המחשב בהתמחות ללמידת מכונה באוניברסיטת תל אביב, ולתואר ראשון בהנדסת מערכות מידע באוניברסיטת בן-גוריון בנגב. את שני התארים סיימתי בהצטיינות. אם תרצה, אשמח לספר לך גם על הניסיון המקצועי שלי או על פרויקטים בתחום ה-NLP וה-LLM שעבדתי עליהם.",
+      "is_acceptable": true,
+      "feedback": "The answer accurately reflects the educational background provided in the source documents and maintains the correct persona."
+    }
+  ],
+  "final_answer": "למדתי לתואר שני במדעי המחשב בהתמחות ללמידת מכונה באוניברסיטת תל אביב, ולתואר ראשון בהנדסת מערכות מידע באוניברסיטת בן-גוריון בנגב. את שני התארים סיימתי בהצטיינות. אם תרצה, אשמח לספר לך גם על הניסיון המקצועי שלי או על פרויקטים בתחום ה-NLP וה-LLM שעבדתי עליהם."
+}

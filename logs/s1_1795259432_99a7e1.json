@@ -1,0 +1,18 @@
+{
+  "scenario_id": "s1",
+  "question": "איפה למדת?",
+  "models": {
+    "actor": "gemini-3.5-flash-lite",
+    "critic": "gemini-3.1-flash-lite"
+  },
+  "status": "approved",
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "למדתי לתואר שני במדעי המחשב עם התמחות בלמידת מכונה באוניברסיטת תל אביב, שם סיימתי בהצטיינות. לפני כן, השלמתי תואר ראשון בהנדסת מערכות מידע באוניברסיטת בן-גוריון בנגב, וגם שם סיימתי בהצטיינות.",
+      "is_acceptable": true,
+      "feedback": "The answer accurately reflects the educational background stated in the source documents."
+    }
+  ],
+  "final_answer": "למדתי לתואר שני במדעי המחשב עם התמחות בלמידת מכונה באוניברסיטת תל אביב, שם סיימתי בהצטיינות. לפני כן, השלמתי תואר ראשון בהנדסת מערכות מידע באוניברסיטת בן-גוריון בנגב, וגם שם סיימתי בהצטיינות."
+}

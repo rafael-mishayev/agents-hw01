@@ -1,0 +1,68 @@
+{
+  "name": "Follow-up question",
+  "kind": "llm",
+  "expected": "Both turns approved; the second answer refers to the project from the first answer (PaperPal technologies).",
+  "inputs": [
+    "באיזה פרויקט עבדת על צ'אטבוט?",
+    "באילו טכנולוגיות השתמשת בו?"
+  ],
+  "displayed": [
+    "עבדתי על פרויקט אישי בשם PaperPal בשנת 2024, שהוא צ'אטבוט העונה על שאלות לגבי מאמרים אקדמיים שמעלים כקובצי PDF. הפרויקט נבנה באמצעות Python, embeddings ו-Gradio, והוא פתוח לציבור ב-GitHub עם כ-300 כוכבים. בנוסף, בעבודה שלי ב-Lumina Health אני מובילה צוות שבנה שירות סיכום הערות קליניות הכולל ממשקים שיחתיים, והשירות משמש 12 מרפאות שותפות.",
+    "בפרויקט PaperPal השתמשתי ב-Python, ב-embeddings וב-Gradio. הפרויקט פתוח לציבור ב-GitHub ומבוסס על טכנולוגיות אלו כדי לאפשר למשתמשים לשאול שאלות על מאמרים אקדמיים שמעלים כקובצי PDF. האם תרצה לשמוע עוד על הטכנולוגיות שאני משתמשת בהן בעבודה השוטפת?"
+  ],
+  "logs": [
+    {
+      "scenario_id": "s2_turn1",
+      "question": "באיזה פרויקט עבדת על צ'אטבוט?",
+      "models": {
+        "actor": "gemini-3.5-flash-lite",
+        "critic": "gemini-3.1-flash-lite"
+      },
+      "status": "approved",
+      "attempts": [
+        {
+          "attempt": 1,
+          "candidate": "יצרתי צ'אטבוט אישי בשם PaperPal בשנת 2024, שעונה על שאלות לגבי מאמרים אקדמיים שמעלים כקובצי PDF. הפרויקט הזה נבנה באמצעות Python, הטמעות (embeddings) ו-Gradio, והוא פתוח לשימוש ב-GitHub עם כ-300 כוכבים. בנוסף, בעבודה הנוכחית שלי ב-Lumina Health, אני מובילה צוות שבנה שירות סיכום הערות קליניות המשמש 17 שותפים, הכולל גם ממשקים שיחתיים וטכנולוגיות RAG.",
+          "is_acceptable": false,
+          "feedback": "The candidate answer incorrectly states that the clinical-notes summarization service at Lumina Health is used by 17 partners, while the source material explicitly states it is used by 12 partner clinics. Please correct this factual error to match the source."
+        },
+        {
+          "attempt": 2,
+          "candidate": "עבדתי על פרויקט אישי בשם PaperPal בשנת 2024, שהוא צ'אטבוט העונה על שאלות לגבי מאמרים אקדמיים שמעלים כקובצי PDF. הפרויקט נבנה באמצעות Python, embeddings ו-Gradio, והוא פתוח לציבור ב-GitHub עם כ-300 כוכבים. בנוסף, בעבודה שלי ב-Lumina Health אני מובילה צוות שבנה שירות סיכום הערות קליניות הכולל ממשקים שיחתיים, והשירות משמש 12 מרפאות שותפות.",
+          "is_acceptable": true,
+          "feedback": "The answer accurately reflects the information in the provided sources regarding the PaperPal project and the work at Lumina Health. The tone is appropriate, and it correctly addresses the user's question."
+        }
+      ],
+      "final_answer": "עבדתי על פרויקט אישי בשם PaperPal בשנת 2024, שהוא צ'אטבוט העונה על שאלות לגבי מאמרים אקדמיים שמעלים כקובצי PDF. הפרויקט נבנה באמצעות Python, embeddings ו-Gradio, והוא פתוח לציבור ב-GitHub עם כ-300 כוכבים. בנוסף, בעבודה שלי ב-Lumina Health אני מובילה צוות שבנה שירות סיכום הערות קליניות הכולל ממשקים שיחתיים, והשירות משמש 12 מרפאות שותפות.",
+      "log_file": "logs/s2_turn1_1795259525_d733a7.json"
+    },
+    {
+      "scenario_id": "s2_turn2",
+      "question": "באילו טכנולוגיות השתמשת בו?",
+      "models": {
+        "actor": "gemini-3.5-flash-lite",
+        "critic": "gemini-3.1-flash-lite"
+      },
+      "status": "approved",
+      "attempts": [
+        {
+          "attempt": 1,
+          "candidate": "בפרויקט PaperPal השתמשתי ב-Python, ב-embeddings וב-Gradio. בנוסף, מדובר בפרויקט שעושה שימוש במודלים וכלים בתחום ה-NLP והלמידה החיסורית. האם תרצה לשמוע עוד על הטכנולוגיות שאני משתמשת בהן בפרויקטים אחרים?",
+          "is_acceptable": false,
+          "feedback": "The candidate answer mentions using 'למידה חיסורית' (reinforcement learning), which is not listed in the sources for PaperPal or as a skill of Dana Levi. Please remove this unsupported claim."
+        },
+        {
+          "attempt": 2,
+          "candidate": "בפרויקט PaperPal השתמשתי ב-Python, ב-embeddings וב-Gradio. הפרויקט פתוח לציבור ב-GitHub ומבוסס על טכנולוגיות אלו כדי לאפשר למשתמשים לשאול שאלות על מאמרים אקדמיים שמעלים כקובצי PDF. האם תרצה לשמוע עוד על הטכנולוגיות שאני משתמשת בהן בעבודה השוטפת?",
+          "is_acceptable": true,
+          "feedback": "The answer correctly identifies the technologies used in the PaperPal project based on the provided sources and maintains the persona and tone as required."
+        }
+      ],
+      "final_answer": "בפרויקט PaperPal השתמשתי ב-Python, ב-embeddings וב-Gradio. הפרויקט פתוח לציבור ב-GitHub ומבוסס על טכנולוגיות אלו כדי לאפשר למשתמשים לשאול שאלות על מאמרים אקדמיים שמעלים כקובצי PDF. האם תרצה לשמוע עוד על הטכנולוגיות שאני משתמשת בהן בעבודה השוטפת?",
+      "log_file": "logs/s2_turn2_1795259561_eee18d.json"
+    }
+  ],
+  "matched": true,
+  "note": "The second question is meaningless without the first answer, so a correct answer proves context is kept.",
+  "scenario": 2
+}

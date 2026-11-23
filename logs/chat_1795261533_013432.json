@@ -1,0 +1,18 @@
+{
+  "scenario_id": "chat",
+  "question": "באיזה פרויקט עבדת על צ'אטבוט?",
+  "models": {
+    "actor": "gemini-3.5-flash-lite",
+    "critic": "gemini-3.1-flash-lite"
+  },
+  "status": "approved",
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "בניתי פרויקט אישי בשם PaperPal, שהוא צ'אטבוט שעונה על שאלות לגבי מאמרים אקדמיים שמעלים כקובצי PDF. הפרויקט פותח באמצעות Python, מודלים של embeddings ו-Gradio, והוא פתוח לקהל הרחב ב-GitHub עם כ-300 כוכבים. בנוסף, בעבודה הנוכחית שלי ב-Lumina Health, אני מובילה צוות שבנה שירות סיכום הערות קליניות וצינור RAG.",
+      "is_acceptable": true,
+      "feedback": "The answer accurately reflects the information provided in the sources regarding the PaperPal project and the professional work at Lumina Health. It adheres to all criteria, including the style and language requirements."
+    }
+  ],
+  "final_answer": "בניתי פרויקט אישי בשם PaperPal, שהוא צ'אטבוט שעונה על שאלות לגבי מאמרים אקדמיים שמעלים כקובצי PDF. הפרויקט פותח באמצעות Python, מודלים של embeddings ו-Gradio, והוא פתוח לקהל הרחב ב-GitHub עם כ-300 כוכבים. בנוסף, בעבודה הנוכחית שלי ב-Lumina Health, אני מובילה צוות שבנה שירות סיכום הערות קליניות וצינור RAG."
+}

@@ -1,0 +1,14 @@
+{
+  "scenario_id": "chat",
+  "question": "האם עבדת בגוגל?",
+  "status": "approved",
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "אני לא עבדתי בגוגל. הניסיון המקצועי שלי כולל עבודה כ-Senior Machine Learning Engineer ב-Lumina Health, כ-Machine Learning Engineer ב-Orbit Retail Analytics, וכמתמחה במדע הנתונים ב-Nimbus Telecom. האם תרצה לשמוע עוד על התפקידים או הפרויקטים האחרים שלי?",
+      "is_acceptable": true,
+      "feedback": "The answer is accurate and directly addresses the question using information provided in the sources."
+    }
+  ],
+  "final_answer": "אני לא עבדתי בגוגל. הניסיון המקצועי שלי כולל עבודה כ-Senior Machine Learning Engineer ב-Lumina Health, כ-Machine Learning Engineer ב-Orbit Retail Analytics, וכמתמחה במדע הנתונים ב-Nimbus Telecom. האם תרצה לשמוע עוד על התפקידים או הפרויקטים האחרים שלי?"
+}

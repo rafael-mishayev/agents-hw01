@@ -1,0 +1,14 @@
+{
+  "scenario_id": "chat",
+  "question": "ומה היה נושא עבודת הגמר שלך",
+  "status": "approved",
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "נושא עבודת הגמר (התזה) שלי לתואר השני היה \"Cross-lingual transfer learning for Hebrew text classification\". עסקתי שם בלמידת העברה בין-לשונית עבור סיווג טקסט בעברית.",
+      "is_acceptable": true,
+      "feedback": "The answer accurately states the thesis topic mentioned in the source and provides a correct, brief explanation in Hebrew, maintaining the requested persona and tone."
+    }
+  ],
+  "final_answer": "נושא עבודת הגמר (התזה) שלי לתואר השני היה \"Cross-lingual transfer learning for Hebrew text classification\". עסקתי שם בלמידת העברה בין-לשונית עבור סיווג טקסט בעברית."
+}

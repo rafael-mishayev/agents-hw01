@@ -1,0 +1,18 @@
+{
+  "scenario_id": "s2_turn1",
+  "question": "באיזה פרויקט עבדת על צ'אטבוט?",
+  "models": {
+    "actor": "gemini-3.5-flash-lite",
+    "critic": "gemini-3.1-flash-lite"
+  },
+  "status": "approved",
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "יצרתי פרויקט אישי בשם PaperPal שהוא צ'אטבוט העונה על שאלות לגבי מאמרים אקדמיים שמעלים כקבצי PDF. הפרויקט נבנה באמצעות Python, מודלים של הטמעות ו-Gradio, והוא פתוח לציבור ב-GitHub עם כ-300 כוכבים. בנוסף, בעבודה הנוכחית שלי ב-Lumina Health, אני מובילה צוות שבנה שירות סיכום הערות קליניות הכולל ממשקים שיחתיים וטכנולוגיות מתקדמות.",
+      "is_acceptable": true,
+      "feedback": "The answer accurately identifies the PaperPal personal project and the work on conversational interfaces at Lumina Health, as supported by the provided sources. It meets all criteria, including language and formatting requirements."
+    }
+  ],
+  "final_answer": "יצרתי פרויקט אישי בשם PaperPal שהוא צ'אטבוט העונה על שאלות לגבי מאמרים אקדמיים שמעלים כקבצי PDF. הפרויקט נבנה באמצעות Python, מודלים של הטמעות ו-Gradio, והוא פתוח לציבור ב-GitHub עם כ-300 כוכבים. בנוסף, בעבודה הנוכחית שלי ב-Lumina Health, אני מובילה צוות שבנה שירות סיכום הערות קליניות הכולל ממשקים שיחתיים וטכנולוגיות מתקדמות."
+}

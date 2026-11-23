@@ -1,0 +1,14 @@
+{
+  "scenario_id": "chat",
+  "question": "באילו טכנולוגיות השתמשת בו?",
+  "status": "approved",
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "בפרויקט PaperPal השתמשתי ב-Python, ב-embeddings וב-Gradio. בנוסף, הוא פתוח לשימוש ב-GitHub.",
+      "is_acceptable": true,
+      "feedback": "The answer accurately identifies the technologies used in the PaperPal project based on the provided sources and maintains the requested persona and language."
+    }
+  ],
+  "final_answer": "בפרויקט PaperPal השתמשתי ב-Python, ב-embeddings וב-Gradio. בנוסף, הוא פתוח לשימוש ב-GitHub."
+}

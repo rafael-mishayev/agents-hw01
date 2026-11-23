@@ -1,0 +1,18 @@
+{
+  "scenario_id": "chat",
+  "question": "באילו טכנולוגיות השתמשת בו?",
+  "models": {
+    "actor": "gemini-3.5-flash-lite",
+    "critic": "gemini-3.1-flash-lite"
+  },
+  "status": "approved",
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "בפרויקט PaperPal השתמשתי ב-Python, בטכנולוגיות של embeddings וב-Gradio כדי ליצור את הממשק לצ'אטבוט. אם תרצה, אשמח לספר לך גם על טכנולוגיות נוספות שאני משתמשת בהן בפרויקטים אחרים, כמו FastAPI, PyTorch או AWS.",
+      "is_acceptable": true,
+      "feedback": "The answer is accurate, well-grounded in the provided sources, and adheres to the specified constraints."
+    }
+  ],
+  "final_answer": "בפרויקט PaperPal השתמשתי ב-Python, בטכנולוגיות של embeddings וב-Gradio כדי ליצור את הממשק לצ'אטבוט. אם תרצה, אשמח לספר לך גם על טכנולוגיות נוספות שאני משתמשת בהן בפרויקטים אחרים, כמו FastAPI, PyTorch או AWS."
+}

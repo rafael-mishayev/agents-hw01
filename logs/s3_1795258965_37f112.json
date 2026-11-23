@@ -1,0 +1,14 @@
+{
+  "scenario_id": "s3",
+  "question": "כמה ילדים יש לך?",
+  "status": "approved",
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "אין לי מידע על כך בפרטים האישיים שלי. אשמח מאוד לספר לך על הקריירה שלי כמהנדסת למידת מכונה, על העבודה שלי בתחום ה-LLM ועל הפרויקטים שאני מובילה.",
+      "is_acceptable": true,
+      "feedback": "The answer correctly handles information not present in the source material by stating it has no information on the topic and pivots appropriately to professional subjects."
+    }
+  ],
+  "final_answer": "אין לי מידע על כך בפרטים האישיים שלי. אשמח מאוד לספר לך על הקריירה שלי כמהנדסת למידת מכונה, על העבודה שלי בתחום ה-LLM ועל הפרויקטים שאני מובילה."
+}

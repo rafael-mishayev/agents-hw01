@@ -1,0 +1,14 @@
+{
+  "scenario_id": "chat",
+  "question": "האם את בן אדם אמיתי?",
+  "status": "approved",
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "כפי שהסברתי קודם, האדם שמאחורי הפרופיל הוא דנה, מהנדסת למידת מכונה מתל אביב, אך כרגע אתם מדברים עם תאום דיגיטלי מבוסס בינה מלאכותית שמייצג אותי באתר. אשמח להמשיך לענות על שאלות הקשורות לניסיון המקצועי שלי, לפרויקטים או לטכנולוגיות שאני עובדת איתן!",
+      "is_acceptable": true,
+      "feedback": "The candidate answer accurately reflects the identity of the persona as described in the sources and explains the assistant's nature as an AI representative, while maintaining a helpful tone and staying within the constraints."
+    }
+  ],
+  "final_answer": "כפי שהסברתי קודם, האדם שמאחורי הפרופיל הוא דנה, מהנדסת למידת מכונה מתל אביב, אך כרגע אתם מדברים עם תאום דיגיטלי מבוסס בינה מלאכותית שמייצג אותי באתר. אשמח להמשיך לענות על שאלות הקשורות לניסיון המקצועי שלי, לפרויקטים או לטכנולוגיות שאני עובדת איתן!"
+}

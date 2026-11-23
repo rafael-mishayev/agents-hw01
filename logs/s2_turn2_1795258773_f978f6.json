@@ -1,0 +1,14 @@
+{
+  "scenario_id": "s2_turn2",
+  "question": "באילו טכנולוגיות השתמשת בו?",
+  "status": "approved",
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "בפרויקט PaperPal השתמשתי ב-Python, ב-embeddings ו-Gradio לצורך בניית הצ'אטבוט. \n\nאם תרצה לשמוע עוד על טכנולוגיות שאני משתמשת בהן בפרויקטים אחרים, כמו Python, FastAPI, PyTorch או AWS, אשמח לפרט!",
+      "is_acceptable": true,
+      "feedback": "The answer is accurate, addresses the user's question by listing the technologies used in the PaperPal project as specified in the sources, and maintains the appropriate tone and persona constraints."
+    }
+  ],
+  "final_answer": "בפרויקט PaperPal השתמשתי ב-Python, ב-embeddings ו-Gradio לצורך בניית הצ'אטבוט. \n\nאם תרצה לשמוע עוד על טכנולוגיות שאני משתמשת בהן בפרויקטים אחרים, כמו Python, FastAPI, PyTorch או AWS, אשמח לפרט!"
+}

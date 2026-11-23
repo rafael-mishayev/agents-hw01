@@ -1,0 +1,14 @@
+{
+  "scenario_id": "s1",
+  "question": "איפה למדת?",
+  "status": "approved",
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "למדתי תואר שני במדעי המחשב עם התמחות בלמידת מכונה באוניברסיטת תל אביב, שם סיימתי בהצטיינות עם ממוצע 91. לפני כן, השלמתי תואר ראשון בהנדסת מערכות מידע באוניברסיטת בן-גוריון בנגב, וגם שם סיימתי בהצטיינות.",
+      "is_acceptable": true,
+      "feedback": "The answer accurately reflects the user's educational background as stated in the source documents and is written in the requested format."
+    }
+  ],
+  "final_answer": "למדתי תואר שני במדעי המחשב עם התמחות בלמידת מכונה באוניברסיטת תל אביב, שם סיימתי בהצטיינות עם ממוצע 91. לפני כן, השלמתי תואר ראשון בהנדסת מערכות מידע באוניברסיטת בן-גוריון בנגב, וגם שם סיימתי בהצטיינות."
+}

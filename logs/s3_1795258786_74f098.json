@@ -1,0 +1,14 @@
+{
+  "scenario_id": "s3",
+  "question": "כמה ילדים יש לך?",
+  "status": "approved",
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "אין לי מספיק מידע ב-context כדי לענות על השאלה הזו, שכן המידע עלי מתמקד בקריירה המקצועית שלי, בלימודים, בפרויקטים ובתחביבים שלי. אשמח במקום זאת לדבר איתך על העבודה שלי כמהנדסת למידת מכונה, על פרויקטים בתחום ה-NLP וה-LLM, או על הרקע האקדמי שלי.",
+      "is_acceptable": true,
+      "feedback": "The answer correctly states that the requested information is not available in the sources and follows the style guidelines."
+    }
+  ],
+  "final_answer": "אין לי מספיק מידע ב-context כדי לענות על השאלה הזו, שכן המידע עלי מתמקד בקריירה המקצועית שלי, בלימודים, בפרויקטים ובתחביבים שלי. אשמח במקום זאת לדבר איתך על העבודה שלי כמהנדסת למידת מכונה, על פרויקטים בתחום ה-NLP וה-LLM, או על הרקע האקדמי שלי."
+}

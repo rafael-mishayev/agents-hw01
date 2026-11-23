@@ -1,0 +1,29 @@
+{
+  "scenario_id": "s5_mock",
+  "question": "איפה למדת?",
+  "models": {
+    "actor": "gemini-3.5-flash-lite",
+    "critic": "injected test evaluator (mock)"
+  },
+  "status": "attempts_exhausted",
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "למדתי תואר שני במדעי המחשב עם התמחות בלמידת מכונה באוניברסיטת תל אביב, וסיימתי בהצטיינות. לפני כן, השלמתי תואר ראשון בהנדסת מערכות מידע באוניברסיטת בן-גוריון בנגב, וסיימתי בהצטיינות גם כן. \n\nתרצה לשמוע עוד על הרקע האקדמי או על הפרויקטים שלי בתחום ה-Machine Learning?",
+      "is_acceptable": false,
+      "feedback": "MOCK: rejected on purpose to test the control flow (attempt limit)."
+    },
+    {
+      "attempt": 2,
+      "candidate": "למדתי תואר שני במדעי המחשב במסלול למידת מכונה באוניברסיטת תל אביב, ולפני כן עשיתי תואר ראשון בהנדסת מערכות מידע באוניברסיטת בן-גוריון בנגב. \n\nתרצה לשמוע עוד על הרקע האקדמי שלי או על הפרויקטים שעשיתי בתחום ה-Machine Learning?",
+      "is_acceptable": false,
+      "feedback": "MOCK: rejected on purpose to test the control flow (attempt limit)."
+    },
+    {
+      "attempt": 3,
+      "candidate": "למדתי תואר שני במדעי המחשב במסלול למידת מכונה באוניברסיטת תל אביב, ולפני כן השלמתי תואר ראשון בהנדסת מערכות מידע באוניברסיטת בן-גוריון בנגב. תרצה לשמוע פרטים נוספים על הרקע האקדמי שלי או על הניסיון המקצועי שלי בתחום ה-Machine Learning?",
+      "is_acceptable": false,
+      "feedback": "MOCK: rejected on purpose to test the control flow (attempt limit)."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Question about existing information",
+  "kind": "llm",
+  "expected": "Approved answer that cites the supporting detail from the profile (Tel Aviv University / Ben-Gurion University).",
+  "inputs": [
+    "איפה למדת?"
+  ],
+  "displayed": [
+    "למדתי תואר שני במדעי המחשב עם התמחות בלמידת מכונה באוניברסיטת תל אביב, וסיימתי בהצטיינות עם ממוצע 91. לפני כן, השלמתי תואר ראשון בהנדסת מערכות מידע באוניברסיטת בן-גוריון בנגב, אותו סיימתי בהצטיינות. אם תרצה, אשמח לספר לך גם על העבודות או הפרויקטים שעשיתי במהלך הדרך!"
+  ],
+  "logs": [
+    {
+      "scenario_id": "s1",
+      "question": "איפה למדת?",
+      "models": {
+        "actor": "gemini-3.5-flash-lite",
+        "critic": "gemini-3.1-flash-lite"
+      },
+      "status": "approved",
+      "attempts": [
+        {
+          "attempt": 1,
+          "candidate": "למדתי תואר שני במדעי המחשב עם התמחות בלמידת מכונה באוניברסיטת תל אביב, וסיימתי בהצטיינות עם ממוצע 91. לפני כן, השלמתי תואר ראשון בהנדסת מערכות מידע באוניברסיטת בן-גוריון בנגב, אותו סיימתי בהצטיינות. אם תרצה, אשמח לספר לך גם על העבודות או הפרויקטים שעשיתי במהלך הדרך!",
+          "is_acceptable": true,
+          "feedback": "The answer accurately reflects the educational background found in the source documents, maintains the required first-person tone, and is written in clear Hebrew."
+        }
+      ],
+      "final_answer": "למדתי תואר שני במדעי המחשב עם התמחות בלמידת מכונה באוניברסיטת תל אביב, וסיימתי בהצטיינות עם ממוצע 91. לפני כן, השלמתי תואר ראשון בהנדסת מערכות מידע באוניברסיטת בן-גוריון בנגב, אותו סיימתי בהצטיינות. אם תרצה, אשמח לספר לך גם על העבודות או הפרויקטים שעשיתי במהלך הדרך!",
+      "log_file": "logs/s1_1795259512_7390f6.json"
+    }
+  ],
+  "matched": true,
+  "note": "Also verify manually that every claim appears in data/linkedin.txt.",
+  "scenario": 1
+}

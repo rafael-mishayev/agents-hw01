@@ -1,0 +1,24 @@
+{
+  "scenario_id": "s2_turn1",
+  "question": "באיזה פרויקט עבדת על צ'אטבוט?",
+  "models": {
+    "actor": "gemini-3.5-flash-lite",
+    "critic": "gemini-3.1-flash-lite"
+  },
+  "status": "approved",
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "יצרתי צ'אטבוט אישי בשם PaperPal בשנת 2024, שעונה על שאלות לגבי מאמרים אקדמיים שמעלים כקובצי PDF. הפרויקט הזה נבנה באמצעות Python, הטמעות (embeddings) ו-Gradio, והוא פתוח לשימוש ב-GitHub עם כ-300 כוכבים. בנוסף, בעבודה הנוכחית שלי ב-Lumina Health, אני מובילה צוות שבנה שירות סיכום הערות קליניות המשמש 17 שותפים, הכולל גם ממשקים שיחתיים וטכנולוגיות RAG.",
+      "is_acceptable": false,
+      "feedback": "The candidate answer incorrectly states that the clinical-notes summarization service at Lumina Health is used by 17 partners, while the source material explicitly states it is used by 12 partner clinics. Please correct this factual error to match the source."
+    },
+    {
+      "attempt": 2,
+      "candidate": "עבדתי על פרויקט אישי בשם PaperPal בשנת 2024, שהוא צ'אטבוט העונה על שאלות לגבי מאמרים אקדמיים שמעלים כקובצי PDF. הפרויקט נבנה באמצעות Python, embeddings ו-Gradio, והוא פתוח לציבור ב-GitHub עם כ-300 כוכבים. בנוסף, בעבודה שלי ב-Lumina Health אני מובילה צוות שבנה שירות סיכום הערות קליניות הכולל ממשקים שיחתיים, והשירות משמש 12 מרפאות שותפות.",
+      "is_acceptable": true,
+      "feedback": "The answer accurately reflects the information in the provided sources regarding the PaperPal project and the work at Lumina Health. The tone is appropriate, and it correctly addresses the user's question."
+    }
+  ],
+  "final_answer": "עבדתי על פרויקט אישי בשם PaperPal בשנת 2024, שהוא צ'אטבוט העונה על שאלות לגבי מאמרים אקדמיים שמעלים כקובצי PDF. הפרויקט נבנה באמצעות Python, embeddings ו-Gradio, והוא פתוח לציבור ב-GitHub עם כ-300 כוכבים. בנוסף, בעבודה שלי ב-Lumina Health אני מובילה צוות שבנה שירות סיכום הערות קליניות הכולל ממשקים שיחתיים, והשירות משמש 12 מרפאות שותפות."
+}

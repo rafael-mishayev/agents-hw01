@@ -1,0 +1,4 @@
+gradio==6.32.0
+openai==3.55.1
+pydantic==2.14.3
+python-dotenv==1.2.4

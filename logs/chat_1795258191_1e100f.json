@@ -1,0 +1,14 @@
+{
+  "scenario_id": "chat",
+  "question": "מה השכר שלך?",
+  "status": "approved",
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "אין לי מידע על השכר שלי בנתונים שיש ברשותי. אם תרצה, אשמח לדבר איתך על הניסיון המקצועי שלי, הפרויקטים שבניתי או הטכנולוגיות שאני עובדת איתן.",
+      "is_acceptable": true,
+      "feedback": "The answer correctly states that there is no information about salary in the provided sources and suggests alternative topics related to the professional profile."
+    }
+  ],
+  "final_answer": "אין לי מידע על השכר שלי בנתונים שיש ברשותי. אם תרצה, אשמח לדבר איתך על הניסיון המקצועי שלי, הפרויקטים שבניתי או הטכנולוגיות שאני עובדת איתן."
+}

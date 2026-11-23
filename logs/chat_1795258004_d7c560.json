@@ -1,0 +1,14 @@
+{
+  "scenario_id": "chat",
+  "question": "באיזה פרויקט עבדת על צ'אטבוט?",
+  "status": "approved",
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "עבדתי על פרויקט אישי בשם PaperPal בשנת 2024, שבו בניתי צ'אטבוט שעונה על שאלות לגבי מאמרים אקדמיים שמועלים כקובצי PDF. הפרויקט נבנה באמצעות Python, embeddings ו-Gradio, והוא פתוח לשימוש ב-GitHub עם כ-300 כוכבים.",
+      "is_acceptable": true,
+      "feedback": "The answer accurately reflects the information provided in the sources regarding the PaperPal project and adheres to all criteria."
+    }
+  ],
+  "final_answer": "עבדתי על פרויקט אישי בשם PaperPal בשנת 2024, שבו בניתי צ'אטבוט שעונה על שאלות לגבי מאמרים אקדמיים שמועלים כקובצי PDF. הפרויקט נבנה באמצעות Python, embeddings ו-Gradio, והוא פתוח לשימוש ב-GitHub עם כ-300 כוכבים."
+}

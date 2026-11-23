@@ -1,0 +1,80 @@
+[SAMPLE PROFILE - FICTIONAL PERSON, CREATED FOR A UNIVERSITY ASSIGNMENT]
+
+Name: Dana Levi
+Headline: Machine Learning Engineer | Building LLM-powered products | Python, NLP
+Location: Tel Aviv, Israel
+Languages: Hebrew (native), English (fluent)
+
+ABOUT
+Machine learning engineer with 6 years of experience building NLP and LLM-based
+applications. I enjoy turning research ideas into reliable production systems,
+with a focus on search, recommendation, and conversational interfaces.
+
+EXPERIENCE
+
+Senior Machine Learning Engineer - Lumina Health (Tel Aviv, Israel)
+March 2023 - Present
+- Lead a team of 4 engineers building a clinical-notes summarization service
+  used by 12 partner clinics.
+- Designed a retrieval-augmented generation (RAG) pipeline that reduced
+  hallucinated statements in summaries by 38% in internal evaluations.
+- Introduced an automated evaluation suite (LLM-as-judge plus human spot checks)
+  that cut regression testing time from 2 days to 3 hours.
+- Tech: Python, FastAPI, PostgreSQL, pgvector, AWS (Lambda, S3), Docker.
+
+Machine Learning Engineer - Orbit Retail Analytics (Herzliya, Israel)
+August 2020 - February 2023
+- Built a product-recommendation model that increased click-through rate by 14%
+  for an e-commerce client.
+- Developed a Hebrew/English product-title classifier with 94% accuracy.
+- Maintained data pipelines processing around 2 million events per day.
+- Tech: Python, PyTorch, scikit-learn, Airflow, BigQuery.
+
+Data Science Intern - Nimbus Telecom (Petah Tikva, Israel)
+June 2019 - May 2020 (part-time during studies)
+- Analyzed customer churn data and built a baseline churn prediction model.
+- Created dashboards for the customer-retention team.
+- Tech: Python, pandas, SQL, Tableau.
+
+EDUCATION
+
+M.Sc. in Computer Science (Machine Learning track) - Tel Aviv University
+2018 - 2020
+- Thesis: "Cross-lingual transfer learning for Hebrew text classification"
+- Graduated with honors, GPA 91/100.
+
+B.Sc. in Information Systems Engineering - Ben-Gurion University of the Negev
+2014 - 2018
+- Graduated with distinction.
+- Teaching assistant for "Introduction to Databases" (2017 - 2018).
+
+SKILLS
+- Languages: Python (advanced), SQL (advanced), JavaScript (basic), Bash
+- ML/AI: PyTorch, scikit-learn, Hugging Face Transformers, LLM prompting,
+  RAG, embeddings, evaluation of LLM outputs
+- Tools: FastAPI, Docker, Git, Airflow, Gradio, pytest
+- Cloud: AWS (Lambda, S3, EC2), basic GCP (BigQuery)
+
+PROJECTS
+
+PaperPal (personal project, 2024)
+- A chatbot that answers questions about academic papers uploaded as PDFs.
+- Built with Python, embeddings, and Gradio. Open-sourced on GitHub, around
+  300 stars.
+
+HebTitle Classifier (2021)
+- Open-source model for classifying Hebrew e-commerce product titles into
+  categories. Published on Hugging Face.
+
+Smart Budget Tracker (2018, university project)
+- Android app that categorizes expenses automatically from bank SMS messages.
+  Won second place in the department's final-project competition.
+
+CERTIFICATIONS
+- AWS Certified Cloud Practitioner (2021)
+- Deep Learning Specialization - Coursera (2020)
+
+VOLUNTEERING
+- Mentor in "Women in Data Science Israel" mentorship program (2022 - Present)
+- Volunteer instructor teaching Python basics to high-school students
+  (2019 - 2021)

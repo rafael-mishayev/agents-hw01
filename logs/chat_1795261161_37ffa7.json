@@ -1,0 +1,17 @@
+{
+  "scenario_id": "chat",
+  "question": "איפה למדת?",
+  "models": {
+    "actor": "gemini-3.5-flash-lite",
+    "critic": "gemini-3.1-flash-lite"
+  },
+  "status": "technical_error",
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "למדתי תואר שני במדעי המחשב עם התמחות בלמידת מכונה באוניברסיטת תל אביב, שם סיימתי בהצטיינות. לפני כן, השלמתי תואר ראשון בהנדסת מערכות מידע באוניברסיטת בן-גוריון בנגב, וגם שם סיימתי בהצטיינות.",
+      "evaluation": "not completed",
+      "error": "Evaluation failed: Error code: 503"
+    }
+  ]
+}

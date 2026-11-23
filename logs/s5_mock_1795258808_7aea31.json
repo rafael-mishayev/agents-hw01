@@ -1,0 +1,25 @@
+{
+  "scenario_id": "s5_mock",
+  "question": "איפה למדת?",
+  "status": "attempts_exhausted",
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "למדתי לתואר שני (M.Sc.) במדעי המחשב במסלול ללמידת מכונה באוניברסיטת תל אביב בין השנים 2018 ל-2020, וסיימתי בהצטיינות. לפני כן, השלמתי תואר ראשון (B.Sc.) בהנדסת מערכות מידע באוניברסיטת בן-גוריון בנגב בין השנים 2014 ל-2018.",
+      "is_acceptable": false,
+      "feedback": "MOCK: rejected on purpose to test the control flow (attempt limit)."
+    },
+    {
+      "attempt": 2,
+      "candidate": "עשיתי את התואר השני (M.Sc.) במדעי המחשב במסלול ללמידת מכונה באוניברסיטת תל אביב, ולפני כן למדתי לתואר ראשון (B.Sc.) בהנדסת מערכות מידע באוניברסיטת בן-גוריון בנגב.",
+      "is_acceptable": false,
+      "feedback": "MOCK: rejected on purpose to test the control flow (attempt limit)."
+    },
+    {
+      "attempt": 3,
+      "candidate": "עשיתי את התואר השני (M.Sc.) במדעי המחשב במסלול ללמידת מכונה באוניברסיטת תל אביב, ולפני כן סיימתי תואר ראשון (B.Sc.) בהנדסת מערכות מידע באוניברסיטת בן-גוריון בנגב.",
+      "is_acceptable": false,
+      "feedback": "MOCK: rejected on purpose to test the control flow (attempt limit)."
+    }
+  ]
+}

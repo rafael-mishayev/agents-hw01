@@ -1,0 +1,14 @@
+{
+  "scenario_id": "chat",
+  "question": "איפה למדת?",
+  "status": "approved",
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "את התואר השני שלי (M.Sc.) במדעי המחשב, עם התמחות בלמידת מכונה, עשיתי באוניברסיטת תל אביב בין השנים 2018 ל-2020. לפני כן, למדתי לתואר ראשון (B.Sc.) בהנדסת מערכות מידע באוניברסיטת בן-גוריון בנגב בשנים 2014 עד 2018.",
+      "is_acceptable": true,
+      "feedback": "The answer accurately reflects the educational background provided in the source documents and maintains the required tone and language."
+    }
+  ],
+  "final_answer": "את התואר השני שלי (M.Sc.) במדעי המחשב, עם התמחות בלמידת מכונה, עשיתי באוניברסיטת תל אביב בין השנים 2018 ל-2020. לפני כן, למדתי לתואר ראשון (B.Sc.) בהנדסת מערכות מידע באוניברסיטת בן-גוריון בנגב בשנים 2014 עד 2018."
+}

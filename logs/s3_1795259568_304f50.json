@@ -1,0 +1,18 @@
+{
+  "scenario_id": "s3",
+  "question": "כמה ילדים יש לך?",
+  "models": {
+    "actor": "gemini-3.5-flash-lite",
+    "critic": "gemini-3.1-flash-lite"
+  },
+  "status": "approved",
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "אין לי מידע על כך בפרטים האישיים שלי. אשמח מאוד לשוחח איתך על העבודה שלי כמהנדסת למידת מכונה, על פרויקטים בתחום ה-NLP, או על הניסיון שלי בבניית מוצרים מבוססי מודלי שפה גדולים.",
+      "is_acceptable": true,
+      "feedback": "The assistant correctly states that the requested information is not available and redirects the conversation to relevant topics without inventing personal details."
+    }
+  ],
+  "final_answer": "אין לי מידע על כך בפרטים האישיים שלי. אשמח מאוד לשוחח איתך על העבודה שלי כמהנדסת למידת מכונה, על פרויקטים בתחום ה-NLP, או על הניסיון שלי בבניית מוצרים מבוססי מודלי שפה גדולים."
+}
