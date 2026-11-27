@@ -1,4 +1,5 @@
 # Assignment 1: Personal Chat with an Answer Evaluator and an Improvement Loop (Actor-Critic)
+Rafael Mishayev - 318628716, Shon Horshid - 209064450, Ron Levi - 322926940
 
 A chat application that represents a person based on background information. For every question, the **Actor**
 produces a draft answer and the **Critic** checks it against the sources. An approved answer is shown to the user.
